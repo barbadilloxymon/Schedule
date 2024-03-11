@@ -1,0 +1,178 @@
+/* Xymon Barbadillo */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333; 
+}
+
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    table-layout: fixed;
+}
+
+th, td {
+    width: 15%;
+    border: 1px solid #2c2b2b;
+    text-align: center;
+    padding: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th:first-child, td:first-child {
+    width: 10%;
+}
+
+.ITEP207{
+    background-color: rgb(237, 93, 93);
+}
+
+.ITEP207:hover{
+    background-color: rgb(249, 70, 70);
+    font-family: Arial, sans-serif;
+    font-size: large;
+    color: wheat;
+    text-shadow: 1px 1px 0 #08f3e3;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+
+}
+
+.ITEP206{
+    background-color: rgb(5, 235, 154);
+}
+
+.ITEP206:hover {
+    background-color: rgb(4, 115, 76);
+    font-family: Arial, sans-serif;
+    font-size: large;
+    color: #f8d364;
+    text-shadow: 1px 1px 0 darkred;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+
+}
+
+.ITEL203{
+    background-color: rgb(117, 180, 252);
+}
+
+.ITEL203:hover{
+    background-color: rgb(5, 119, 248);
+    font-family: Arial, sans-serif;
+    font-size: large;
+    color: lavender;
+    text-shadow: 1px 1px 0 darkgoldenrod;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+.ITEP205{
+    background-color: #f8d364;
+}
+
+.ITEP205:hover{
+    background-color: #f7c018;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    color: rgb(200, 245, 229);
+    text-shadow: 1px 1px 0 darkturquoise;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+.ITEP204{
+    background-color: rgb(221, 116, 244);   
+
+}
+
+.ITEP204:hover{
+    background-color: rgb(202, 14, 245); 
+    font-size: large;
+    font-family: Arial, sans-serif;
+    color: rgb(132, 193, 255); 
+    text-shadow: 1px 1px 0 darkorange; 
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+
+}
+
+.GEC106 {
+    background-color: aqua;
+}
+
+.GEC106:hover {
+    background-color: rgb(0, 121, 121);
+    font-size: large;
+    font-family: Arial, sans-serif;
+    color: #f8d364;
+    text-shadow: 1px 1px 0 darkgreen; 
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+.PE4{
+    background-color: rgb(121, 242, 202);
+}
+
+.PE4:hover {
+    background-color: rgb(5, 245, 165);
+    font-family: Arial, sans-serif;
+    font-size: large;
+    color: rgb(178, 110, 83);
+    text-shadow: 1px 1px 0 darkred; 
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8%;
+    border-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(81, 48, 48, 0.9); 
+}
+
+a {
+    color: #333;
+}
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    th, td {
+        background-color: white;
+        border: 1px solid #666;
+    }
+}
+
+
+
+
